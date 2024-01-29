@@ -1,3 +1,6 @@
 .pyc
 Data/
+__pycache__/
+.png
+*.png
 
