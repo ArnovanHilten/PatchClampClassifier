@@ -71,9 +71,8 @@ def smooth_abf_signal(Ysignal,  window_size = 21, poly_order = 3 ):
   smoothed_signal = np.vstack(smoothed_signal)
   return smoothed_signal
 
-def norm_abf_signal(Ysignal, pulse_offset = 400, end_time = 6000):
+def norm_abf_signal(Ysignal, start_pulse, end_time = 6000):
     sweepynorm = []
-    start_pulse = np.argmax(abs(abf.sweepC)) + pulse_offset
 
     Ysignal = Ysignal[:, start_pulse:end_time]
     for i in range(Ysignal.shape[0]):
