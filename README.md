@@ -8,6 +8,10 @@ clone git@github.com:ArnovanHilten/PatchClampClassifier.git
 conda env create -f environment_patchclamp.yml
 ```
 
+```
+conda activate patchclamp
+```
+
 ## Retraining the random forest
 ```
 python patchclamp_classifier.py main
