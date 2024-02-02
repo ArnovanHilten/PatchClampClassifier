@@ -1,7 +1,7 @@
 # PatchClamp data with Random forest classifier
 ## Install:
 ```
-git@github.com:ArnovanHilten/PatchClampClassifier.git
+clone git@github.com:ArnovanHilten/PatchClampClassifier.git
 ```
 
 ```
