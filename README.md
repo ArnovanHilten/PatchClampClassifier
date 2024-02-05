@@ -9,7 +9,7 @@ conda env create -f environment_patchclamp.yml
 ```
 
 ```
-conda activate patchclamp
+conda activate PatchClamp
 ```
 
 ## Retraining the random forest
